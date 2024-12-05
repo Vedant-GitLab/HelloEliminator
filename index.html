@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Elementor Theme</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: rgb(252, 231, 231);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fbf4f4;
+      box-shadow: 0 0 15px rgba(202, 179, 179, 0.1);
+      background-size: 1000px;
+      border: 5px solid black;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #dc9696;
+      margin-bottom: 10px;
+    }
+.font{
+  font-size: 50px;
+}
+    .avatar {
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .theme-info {
+      margin-top: 20px;
+    }
+
+    .theme-info h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .theme-info p {
+      font-size: 1rem;
+      color: #cebebe;
+    }
+
+    .cta-buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .cta-buttons a {
+      padding: 10px 20px;
+      background-color: yellowgreen;
+      color: #ebe1e1;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-buttons a:hover {
+      background-color: #3683cf;
+    }
+
+    .stats {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .stats div {
+      background-color: #5c94cc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(189, 182, 182, 0.1);
+    }
+
+    .ratings {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .ratings .stars {
+      color: gold;
+      font-size: 1.5rem;
+    }
+
+    .support, .translations {
+      margin-top: 40px;
+    }
+
+    .support a, .translations a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .support a:hover, .translations a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #4c3636;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <h1>Hello Elementor</h1>
+
+    <div>
+      <img src="https://images.pexels.com/photos/27382886/pexels-photo-27382886/free-photo-of-a-view-of-the-ocean-from-a-hilltop.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Avatar" class="avatar">
+     <b> <span class="font">Elementor Avatar</span></b>
+    </div>
+
+    <div class="theme-info">
+      <h2>Elementor Theme</h2>
+      <p><strong>Commercial theme:</strong> This theme is free but offers additional paid commercial upgrades or support.</p>
+    </div>
+
+    <!-- CTA Buttons -->
+    <div class="cta-buttons">
+      <a href="#">Preview</a>
+      <a href="#">Download</a>
+    </div>
+
+    <!-- Theme Stats -->
+    <div class="stats">
+      <div>
+        <h3>Version</h3>
+        <p>3.1.1</p>
+      </div>
+      <div>
+        <h3>Last Updated</h3>
+        <p>July 30, 2024</p>
+      </div>
+      <div>
+        <h3>Active Installations</h3>
+        <p>1+ million</p>
+      </div>
+    </div>
+
+    <!-- WordPress and PHP Version -->
+    <div class="stats">
+      <div>
+        <h3>WordPress Version</h3>
+        <p>6.0</p>
+      </div>
+      <div>
+        <h3>PHP Version</h3>
+        <p>7.4</p>
+      </div>
+      <div>
+        <h3>Theme Homepage</h3>
+        <p><a href="https://elementor.com/" target="_blank">Visit Theme Homepage</a></p>
+      </div>
+    </div>
+
+    <!-- Ratings Section -->
+    <div class="ratings">
+      <h2>Ratings</h2>
+      <p><strong>4.4 out of 5 stars</strong></p>
+      <p class="stars">⭐⭐⭐⭐☆</p>
+      <p>92 5-star reviews | 3 4-star reviews | 2 3-star reviews | 15 1-star reviews</p>
+    </div>
+
+    <!-- Support Section -->
+    <div class="support">
+      <h2>Support</h2>
+      <p>Got something to say? Need help? <a href="#">View support forum</a></p>
+      <p><a href="#">Report this theme</a></p>
+    </div>
+
+    <!-- Translations Section -->
+    <div class="translations">
+      <h2>Translations</h2>
+      <p>This theme is available in multiple languages. <a href="#">Translate this theme</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Powered by <a href="https://wordpress.org/">WordPress</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
